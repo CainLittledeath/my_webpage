@@ -32,10 +32,10 @@ export default function App() {
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
             <h1 className="text-display uppercase flex flex-col items-start w-full max-w-4xl">
-              <span className="text-[8vw] md:text-[4.5vw] leading-none font-normal tracking-[0.2em] scale-y-110 transform origin-left">
+              <span className="text-[8vw] md:text-[4.5vw] leading-none font-bold tracking-[0.2em] scale-y-110 transform origin-left">
                 CAIN
               </span>
-              <span className="text-[#f02222] text-[9vw] md:text-[6.5vw] leading-none tracking-widest font-normal scale-x-100 transform origin-left mt-2 md:mt-4">
+              <span className="text-[#f02222] text-[9vw] md:text-[6.5vw] leading-none tracking-widest font-bold scale-x-100 transform origin-left mt-2 md:mt-4">
                 _LITTLEDEATH
               </span>
             </h1>

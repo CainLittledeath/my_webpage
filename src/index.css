@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
 @import "tailwindcss";
 
 @theme {
+  --font-sans: "IBM Plex Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  
   --color-bg-dark: #0a0a0a;
   --color-bg-panel: #141414;
   --color-accent: #e5e5e5;
@@ -16,7 +19,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: var(--color-accent);
-  font-family: "IBM Plex Sans KR", ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,11 +70,11 @@ body {
 }
 
 .text-display {
-  font-family: "Syne", ui-sans-serif, system-ui, sans-serif !important;
+  font-family: var(--font-display);
 }
 
 .text-mono {
-  font-family: "Space Mono", ui-monospace, SFMono-Regular, monospace !important;
+  font-family: var(--font-mono);
 }
 
 /* Custom scrollbar */
