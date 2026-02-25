@@ -31,11 +31,11 @@ export default function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <h1 className="text-display uppercase flex flex-col items-start">
-              <span className="text-[10vw] md:text-[6vw] leading-none font-thin tracking-[0.2em] scale-y-110 transform origin-left">
+            <h1 className="text-display uppercase flex flex-col items-start w-full max-w-4xl">
+              <span className="text-[8vw] md:text-[4.5vw] leading-none font-thin tracking-[0.2em] scale-y-110 transform origin-left">
                 CAIN
               </span>
-              <span className="text-[#f02222] text-[11vw] md:text-[8vw] leading-none tracking-widest font-thin scale-x-100 transform origin-left mt-2 md:mt-4">
+              <span className="text-[#f02222] text-[9vw] md:text-[6.5vw] leading-none tracking-widest font-thin scale-x-100 transform origin-left mt-2 md:mt-4">
                 _LITTLEDEATH
               </span>
             </h1>
@@ -190,7 +190,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* YouTube Card */}
             {/* 유튜브 링크는 아래 href="#" 의 # 대신 링크를 넣으시면 됩니다. 예: href="https://youtube.com/..." */}
-            <a href="#" target="_blank" rel="noopener noreferrer" className="group hardware-panel p-8 relative overflow-hidden flex flex-col justify-between min-h-[240px] transition-all hover:border-[#f02222]/30">
+            <a href="https://www.youtube.com/@cain_littledeath" target="_blank" rel="noopener noreferrer" className="group hardware-panel p-8 relative overflow-hidden flex flex-col justify-between min-h-[240px] transition-all hover:border-[#f02222]/30">
               <div className="absolute top-0 right-0 w-64 h-64 bg-[#f02222]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-[#f02222]/10 transition-colors duration-500"></div>
               <div className="halftone-overlay"></div>
               <div className="flex justify-between items-start z-10">
@@ -213,7 +213,7 @@ export default function App() {
 
             {/* SoundCloud Card */}
             {/* 사운드클라우드 링크는 아래 href="#" 의 # 대신 링크를 넣으시면 됩니다. 예: href="https://soundcloud.com/..." */}
-            <a href="#" target="_blank" rel="noopener noreferrer" className="group hardware-panel p-8 relative overflow-hidden flex flex-col justify-between min-h-[240px] transition-all hover:border-[#f02222]/30">
+            <a href="https://soundcloud.com/cain_soundtrack" target="_blank" rel="noopener noreferrer" className="group hardware-panel p-8 relative overflow-hidden flex flex-col justify-between min-h-[240px] transition-all hover:border-[#f02222]/30">
               <div className="absolute top-0 right-0 w-64 h-64 bg-[#f02222]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-[#f02222]/10 transition-colors duration-500"></div>
               <div className="halftone-overlay"></div>
               <div className="flex justify-between items-start z-10">
