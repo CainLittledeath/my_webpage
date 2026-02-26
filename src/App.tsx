@@ -247,9 +247,6 @@ export default function App() {
           <div>
             <div className="text-display text-2xl uppercase mb-4">C O N T A C T</div>
             <div className="flex flex-col gap-2">
-              <a href="tel:010-3712-5213" className="text-mono text-base md:text-lg text-[#a0a0a0] hover:text-red-400 transition-colors flex items-center gap-2">
-                010-3712-5213
-              </a>
               <a href="mailto:imee1030@naver.com" className="text-mono text-base md:text-lg text-[#a0a0a0] hover:text-red-400 transition-colors flex items-center gap-2">
                 imee1030@naver.com <ArrowUpRight size={18} />
               </a>
