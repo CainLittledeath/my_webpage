@@ -9,7 +9,7 @@ const WORKS = [
   { id: '02', title: 'The devil within : SATGAT', role: 'Newcore games', year: '2024', image: 'https://od.lk/s/OF8yMDI2MjEzNzVf/2.jpg' },
   { id: '01', title: '𝕸𝖆𝖈𝖌𝖚𝖋𝖋𝖎𝖓', role: '청강문화산업대학교(2024)', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzhf/1.jpg' },
   { id: '03', title: 'Maplestory M : Kanna PV', role: 'NEXON games', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzdf/3.jpg' },
-  { id: '05', title: '아모레퍼시픽 : 북촌 조향사의 집 展 (2023)', role: 'Amore Pacific', year: '2023', image: 'https://od.lk/s/OF8yMDI2Mzk4MTRf/amorepacific.webp' },
+  { id: '05', title: '아모레퍼시픽 : 북촌 조향사의 집 展', role: 'Amore Pacific', year: '2023', image: 'https://od.lk/s/OF8yMDI2Mzk4MTRf/amorepacific.webp' },
 ];
 
 export default function App() {
