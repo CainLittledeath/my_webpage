@@ -5,10 +5,11 @@ import { ArrowUpRight, Youtube, Cloud } from 'lucide-react';
 // 각 항목의 'image' 속성 값에 원하시는 이미지 링크를 넣으시면 됩니다.
 // 예: image: 'https://내이미지링크.com/image.jpg'
 const WORKS = [
-  { id: '01', title: '𝕸𝖆𝖈𝖌𝖚𝖋𝖋𝖎𝖓', role: '청강문화산업대학교(2024)', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzhf/1.jpg' },
-  { id: '02', title: 'The devil within : SATGAT', role: 'Newcore games', year: '2024', image: 'https://od.lk/s/OF8yMDI2MjEzNzVf/2.jpg' },
-  { id: '03', title: 'Maplestory M : Kanna PV', role: 'NEXON games', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzdf/3.jpg' },
   { id: '04', title: 'Dawn Of Llight', role: '계명대학교(2026)', year: '2025', image: 'https://od.lk/s/OF8yMDI2MjEzNzZf/4.jpg' },
+  { id: '02', title: 'The devil within : SATGAT', role: 'Newcore games', year: '2024', image: 'https://od.lk/s/OF8yMDI2MjEzNzVf/2.jpg' },
+  { id: '01', title: '𝕸𝖆𝖈𝖌𝖚𝖋𝖋𝖎𝖓', role: '청강문화산업대학교(2024)', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzhf/1.jpg' },
+  { id: '03', title: 'Maplestory M : Kanna PV', role: 'NEXON games', year: '2023', image: 'https://od.lk/s/OF8yMDI2MjEzNzdf/3.jpg' },
+  { id: '05', title: '아모레퍼시픽 : 북촌 조향사의 집 展 (2023)', role: 'Amore Pacific', year: '2023', image: 'https://od.lk/s/OF8yMDI2Mzk4MTRf/amorepacific.webp' },
 ];
 
 export default function App() {
@@ -108,6 +109,7 @@ export default function App() {
               { year: '2025', title: '≪The devil within - SATGAT≫', role: 'Game' },
               { year: '2025', title: 'SANDY FLOOR - ≪Great toy showdown≫', role: 'Game' },
               { year: '2024', title: '메이플스토리 M - 칸나 PV', role: 'Animation' },
+              { year: '2023', title: '아모레퍼시픽 - 북촌 조향사의 집 展', role: 'Promotion' },
               { year: '2022 ~ 2024', title: '≪Macguffin≫ 외 인디 애니메이션 다수', role: 'Animation' },
             ].map((item, idx) => (
               <div key={idx} className="group flex flex-col md:flex-row md:items-center justify-between py-1 hover:bg-white/5 transition-colors px-4 -mx-4 rounded-sm">
@@ -137,7 +139,7 @@ export default function App() {
             <span className="text-mono text-xs text-[#666] tracking-widest hidden md:inline-block">참여 작업</span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {WORKS.map((work, idx) => (
               <div 
                 key={work.id}
